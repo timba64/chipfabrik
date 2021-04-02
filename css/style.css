@@ -1,0 +1,160 @@
+:root {
+    --body-color: #444444;
+    --bg-hero: #454925;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    color: var(--body-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    background-color: transparent;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+
+p {
+    margin: 0 0 16px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    margin: 30px 0 1px;
+    overflow: visible;
+}
+
+img {
+    border-style: none;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.part {
+    padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    .title-section {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* section hero ******************************/
+.tile-01 {
+    padding: 40px 0;
+    background-color: var(--bg-hero);
+}
+
+.title-hero {
+    text-align: center;
+    font-size: 26px;
+    color: #ffffff
+}
+
+.text-hero {
+    color: #ffffff;
+}
+
+.text-hero p:last-child {
+    margin: 0 0 30px;
+}
+
+.img-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .tile-01 {
+        padding: 80px 0;
+    }
+
+    .title-hero {
+        font-size: 40px;
+    }
+
+    .text-hero {
+        font-size: 18px;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .text-hero {
+        flex: 0 1 49%;
+    }
+
+    .img-hero {
+        flex: 0 1 49%;
+        text-align: center;
+    }
+
+    .img-hero img {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+/* section main text ******************************/
+.part-1 {
+    padding: 40px 0 20px;
+}
+
+.title-section {
+    font-size: 22px;
+}
+
+.subtitle-section {
+    font-size: 20px;
+}
+
+.small-hr {
+    width: 300px;
+    margin: 30px 0;
+}
