@@ -1,13 +1,13 @@
 function makeMenu() {
     const mb = document.querySelector('.mobtn'),
-    hd = document.querySelector('.top-menu');
+        hd = document.querySelector('.top-menu');
 
-    mb.addEventListener('click', function(){
+    mb.addEventListener('click', function() {
         this.classList.toggle('open');
         hd.classList.toggle('open');
     });
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-  makeMenu();
+document.addEventListener('DOMContentLoaded', function() {
+    makeMenu();
 }, false);
