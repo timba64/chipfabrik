@@ -3,3 +3,4 @@ images/
 node_modules/
 css/normalize.css
 package-lock.json
+favicon.ico
