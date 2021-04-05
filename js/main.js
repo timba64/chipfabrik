@@ -10,4 +10,5 @@ function makeMenu() {
 
 document.addEventListener('DOMContentLoaded', function() {
     makeMenu();
+    // add here your own functions
 }, false);
